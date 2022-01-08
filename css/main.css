@@ -1,0 +1,52 @@
+
+body {
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+header {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: #5F89A9;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+    
+}
+header img {
+box-shadow: 10px 5px 5px black;
+}
+
+h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 3em;
+}
+
+footer p, ul li, span {
+    font-family: 'Catamaran', sans-serif;
+}
+h2 {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 2em;
+}
+.main p {
+    color: grey;
+}
+
+footer {
+    padding: 15px;
+    background-color: #5F89A9;
+    color: white;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 15px;
+
+}
+
+.lesson-items {
+border-top: 3px inset black;
+border-bottom: 3px inset black;
+
+}
