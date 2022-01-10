@@ -9,7 +9,7 @@ header {
     padding: 15px;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    background-color: #5F89A9;
+    background-color: #2b516e;
     color: white;
     justify-items: center;
     align-items: center;
@@ -34,13 +34,10 @@ h2 {
     font-family: 'Catamaran', sans-serif;
     font-size: 2em;
 }
-.main p {
-    color: grey;
-}
 
 footer {
     padding: 15px;
-    background-color: #5F89A9;
+    background-color: #2b516e;
     color: white;
     box-shadow: 10px 5px 5px black;
     border-radius: 15px;
