@@ -1,30 +1,26 @@
 
-body {
-    margin-left: 400px;
-    margin-right: 400px;
-    max-width: 950px;
-}
+
 
 header {
     padding: 15px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
     background-color: #2b516e;
     color: white;
-    justify-items: center;
-    align-items: center;
-    box-shadow: 10px 5px 5px black;
-    border-radius: 15px;
+    text-align: center;
+  
     
 }
 header img {
 box-shadow: 10px 5px 5px black;
 width: 150px;
+
 }
 
 h1 {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 3em;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
 }
 
 footer p, ul li, span {
@@ -39,8 +35,8 @@ footer {
     padding: 15px;
     background-color: #2b516e;
     color: white;
-    box-shadow: 10px 5px 5px black;
-    border-radius: 15px;
+   
+   
 
 }
 

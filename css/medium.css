@@ -1,0 +1,43 @@
+
+/* Medium View*/
+@media screen and (min-width: 32.5em) {
+    body {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    header {
+     padding: 15px;
+     display: grid;
+     grid-template-columns: 1fr;
+     
+     justify-items: center;
+     box-shadow: 10px 5px 5px black;
+     border-radius: 15px;           
+ }
+ footer {
+    border-radius: 15px;
+}
+ 
+ }
+/* Large View*/
+@media screen and (min-width: 68em) {
+    body {
+        margin-left: 400px;
+        margin-right: 400px;
+        max-width: 950px;
+    }
+
+    header {
+
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        justify-items: center;
+        align-items: center;
+      
+              
+}
+
+}
+    
+
+
