@@ -72,6 +72,9 @@ section h4 {
   margin-bottom: -16px;
   
 }
+.description {
+  padding: 5px;
+}
 
 /* Footer */
 
@@ -81,5 +84,6 @@ footer {
     padding: 5px;
     margin-top: 10px;
 }
+
 
 
