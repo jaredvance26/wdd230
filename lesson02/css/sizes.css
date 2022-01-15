@@ -1,5 +1,5 @@
 
-
+/* Medium View*/
 @media screen and (min-width: 48em) {
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -15,12 +15,14 @@
   
   }
 
+  /* Large View*/
   @media screen and (min-width: 86em) {
     .cards {
       grid-template-columns: 1fr 1fr 1fr;
     }  
     section {
       max-width: 500px;
+      border: 3px solid grey;
     }
 
     section h3 {
@@ -29,4 +31,5 @@
     section h4 {
       font-size: 1.25em;
     }
+
   }

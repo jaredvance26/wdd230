@@ -1,4 +1,4 @@
-alert(document.lastModified);
+
 
 let lastModified = new Date(document.lastModified);
 let today = new Date()
