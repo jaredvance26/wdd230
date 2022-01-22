@@ -14,3 +14,12 @@ p {
 footer p {
     font-size: 1em;
 }
+
+.elements h2, .elements p, .elements h4{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.elements h4:hover {
+    color: #FED700;
+}

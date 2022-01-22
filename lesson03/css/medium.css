@@ -5,7 +5,7 @@
         flex-direction: row;
     }
     nav ul li a:hover {
-        color: yellow;
+        color: #FED700;
     }
     
 }
