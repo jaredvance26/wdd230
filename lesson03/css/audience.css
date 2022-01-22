@@ -1,0 +1,36 @@
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li h4 {
+    font-family: "Exo", sans-serif;
+    color: #c35817;
+    font-size: 1.25em;
+}
+
+ul li {
+    font-family: "Advent Pro", sans-serif;
+    
+}
+
+h2,h3 {
+    text-align: center;
+}
+h2{
+    padding-top: 15px;
+}
+
+.content {
+    background-color: rgb(230, 230, 230);
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

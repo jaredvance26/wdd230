@@ -1,0 +1,21 @@
+
+/*Medium Screen*/
+@media screen and  (min-width: 32.5em) {
+    nav ul {
+        flex-direction: row;
+    }
+    nav ul li a:hover {
+        color: yellow;
+    }
+    
+}
+
+/*Larger Screen*/
+@media screen and (min-width: 62.5em) {
+    body {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

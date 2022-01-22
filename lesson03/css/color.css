@@ -1,0 +1,16 @@
+img {
+    display: block;
+    max-width: 400px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    font-size: 1.25em;
+    padding: 5px;
+}
+
+footer p {
+    font-size: 1em;
+}
