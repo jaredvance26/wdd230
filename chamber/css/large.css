@@ -1,0 +1,73 @@
+@media screen and (min-width: 60em) {
+
+   /*Header*/
+   header img.logo {
+        max-width: 15%;;
+   }
+    header nav {
+        display: flex;
+        flex-direction: row-reverse;
+        flex: 3 1 auto;
+
+    }
+    nav button {
+        display: none;
+    }
+    nav div.img_btn {
+       flex: .5 1 auto;
+    }
+   
+    nav ul li {
+        display: block;
+        flex: 1 1 auto;
+        flex-direction: column-reverse;
+        border: none;
+    }
+    nav ul {
+        display: flex;
+        flex: 10 1 auto;
+    }
+    nav ul li a {
+        color: white;
+        font-size: 1.25em;
+    }
+    nav ul li a:hover {
+        color: #FED700;
+    }
+
+    /*Body*/
+  
+    body main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main div.hero {
+        flex: 4 1 auto;
+    }
+    main div.weather {
+        flex: 1 1 auto;
+    }
+
+    main div.news {
+        flex: 2 1 auto;
+    }
+    main div.join {
+        flex: 1 1 auto;
+    }
+    main div.sl {
+        flex-direction: column;
+    }
+    
+    main div.sl div:nth-child(3) {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+ 
+    /* Footer */
+    footer img {
+        max-width: 15%;
+    }
+}
+

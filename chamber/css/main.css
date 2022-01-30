@@ -1,0 +1,164 @@
+h1,h2,h3,h4,h5,a {
+    font-family: "Exo", sans-serif;
+}
+
+p {
+    font-family: "Advent Pro", sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #022765;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+h1{
+font-size: 1em;
+}
+h2{
+    font-size: .75em;
+}
+header img.logo {
+    max-width: 30%;
+    height: auto;
+}
+header div.info {
+    flex: 1 2 auto;
+    text-align: left;
+    align-self:center;
+    line-height: 15px;
+}
+
+.img_btn {
+
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.img_btn img {
+    max-width: 30px;
+    height: auto;
+ 
+}
+img.insta {
+    min-width: 40px;
+    
+}
+div.date {
+    display: block;
+    background-color: #0548bb;
+    padding: 3px;
+    max-width: auto;
+    margin-bottom: 5px;
+    border: 5px solid #022765;
+
+}
+div.date h2 {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}
+button {
+    background: transparent;
+    border: none;
+    font-size: 2.15em;
+    color: white;
+}
+button span:nth-child(2){
+    display:none;
+}
+
+
+nav ul li {
+    display: none;
+    list-style: none;
+    border-top: 1px solid black;
+    
+
+}
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+/* When hamburger button is clicked*/
+
+
+button.open span:nth-child(1) {
+    display: none;
+}
+button.open span:nth-child(2) {
+    display: block;
+    font-size: 1em;
+}
+nav ul.open {
+    padding-left: 0;
+    background-color: white;
+    text-align: center;
+}
+nav ul.open li {
+    display: block;
+   
+}
+/*Body*/
+main {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+    
+}
+main p {
+    padding: 5px;
+}
+main div {
+    border: 1px solid grey;
+    background-color: rgb(235, 235, 235);
+    min-height: 150px;
+    
+}
+main div:nth-child(3) {
+    display:none;
+}
+main div.sl {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    border: none;
+}
+main div.sl div:nth-child(3) {
+    display: none;
+}
+main div.weather_news {
+    display: flex;
+    flex-direction: column;
+    gap:15px; 
+    border: none;
+    background-color: white;
+}
+
+
+
+/*Footer*/
+
+footer {
+    text-align: center;
+    background-color: #022765;
+    color: white;
+    padding: 10px;
+}
+footer img {
+    max-width: 30%;
+    height: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FED700;
+}
