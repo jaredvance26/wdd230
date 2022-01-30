@@ -126,11 +126,11 @@ main div:nth-child(3) {
     display:none;
 }
 main div.sl {
+    padding: 15px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    background-color: white;
-    border: none;
+    background-color: rgb(235, 235, 235);
+    
 }
 main div.sl div:nth-child(3) {
     display: none;
