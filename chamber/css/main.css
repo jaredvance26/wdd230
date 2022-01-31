@@ -1,163 +1,157 @@
-h1,h2,h3,h4,h5,a {
-    font-family: "Exo", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  font-family: "Exo", sans-serif;
 }
 
-p {
-    font-family: "Advent Pro", sans-serif;
+main h3 {
+  font-family: "Advent Pro", sans-serif;
+  font-size: 1em;
 }
 
 /* Header */
 header {
-    background-color: #022765;
-    color: white;
-    display: flex;
-    align-items: start;
-    justify-content: space-between;
-    
+  background-color: #022765;
+  color: white;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
 }
-h1{
-font-size: 1em;
+h1 {
+  font-size: 1em;
 }
-h2{
-    font-size: .75em;
+h2 {
+  font-size: 0.75em;
 }
 header img.logo {
-    max-width: 30%;
-    height: auto;
+  max-width: 30%;
+  height: auto;
 }
 header div.info {
-    flex: 1 2 auto;
-    text-align: left;
-    align-self:center;
-    line-height: 15px;
+  flex: 1 2 auto;
+  text-align: left;
+  align-self: center;
+  line-height: 15px;
 }
 
 .img_btn {
-
-    display: flex;
-    flex: 1 1 auto;
-    align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
 }
 
 .img_btn img {
-    max-width: 30px;
-    height: auto;
- 
+  max-width: 30px;
+  height: auto;
 }
 img.insta {
-    min-width: 40px;
-    
+  min-width: 40px;
 }
 div.date {
-    display: block;
-    background-color: #0548bb;
-    padding: 3px;
-    margin-bottom: 5px;
-    border: 5px solid #022765;
-
+  display: block;
+  background-color: #0548bb;
+  padding: 3px;
+  margin-bottom: 5px;
+  border: 5px solid #022765;
 }
 div.date h2 {
-    color: white;
-    font-size: 1em;
-    text-align: center;
+  color: white;
+  font-size: 1em;
+  text-align: center;
 }
 button {
-    background: transparent;
-    border: none;
-    font-size: 2.15em;
-    color: white;
+  background: transparent;
+  border: none;
+  font-size: 2.15em;
+  color: white;
 }
-button span:nth-child(2){
-    display:none;
+button span:nth-child(2) {
+  display: none;
 }
-
 
 nav ul li {
-    display: none;
-    list-style: none;
-    border-top: 1px solid black;
-    
-
+  display: none;
+  list-style: none;
+  border-top: 1px solid black;
 }
 nav ul li a {
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
 }
 /* When hamburger button is clicked*/
 
-
 button.open span:nth-child(1) {
-    display: none;
+  display: none;
 }
 button.open span:nth-child(2) {
-    display: block;
-    font-size: 1em;
+  display: block;
+  font-size: 1em;
 }
 nav ul.open {
-    padding-left: 0;
-    background-color: white;
-    text-align: center;
+  padding-left: 0;
+  background-color: white;
+  text-align: center;
+  position: absolute;
+  padding: 5px;
+  
 }
 nav ul.open li {
-    display: block;
-   
+  display: block;
 }
 /*Body*/
 main {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    display: flex;
-    flex-flow: column;
-    gap: 15px;
-    
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-flow: column;
+  gap: 15px;
 }
-main p {
-    padding: 5px;
+main section h3 {
+  padding: 5px;
 }
-main div {
-    border: 1px solid grey;
-    background-color: rgb(235, 235, 235);
-    min-height: 150px;
-    
+main section, main div {
+  border: 1px solid grey;
+  background-color: rgb(235, 235, 235);
+  min-height: 150px;
 }
-main div:nth-child(3) {
-    display:none;
+main div.sl section:nth-child(3) {
+  display: none;
 }
 main div.sl {
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(235, 235, 235);
-    
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
 }
-main div.sl div:nth-child(3) {
-    display: none;
+main section.join {
+  display: none;
 }
 main div.weather_news {
-    display: flex;
-    flex-direction: column;
-    gap:15px; 
-    border: none;
-    background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: none;
+  background-color: white;
 }
-
-
 
 /*Footer*/
 
 footer {
-    text-align: center;
-    background-color: #022765;
-    color: white;
-    padding: 10px;
+  text-align: center;
+  background-color: #022765;
+  color: white;
+  padding: 10px;
 }
 footer img {
-    max-width: 30%;
-    height: auto;
+  max-width: 30%;
+  height: auto;
 }
 
 footer a {
-    text-decoration: none;
-    color: #FED700;
+  text-decoration: none;
+  color: #fed700;
 }
