@@ -20,7 +20,7 @@ header {
   align-items: start;
   justify-content: space-between;
 }
-h1 {
+header h1 {
   font-size: 1em;
 }
 h2 {
@@ -62,10 +62,10 @@ div.date h2 {
   font-size: 1em;
   text-align: center;
 }
-button {
+div.img_btn button {
+  font-size: 2em;
   background: transparent;
   border: none;
-  font-size: 2.15em;
   color: white;
 }
 button span:nth-child(2) {
@@ -103,12 +103,13 @@ nav ul.open li {
   display: block;
 }
 /*Body*/
-main {
+body main {
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
   flex-flow: column;
-  gap: 15px;
+
+  
 }
 main section h3 {
   padding: 5px;
@@ -117,6 +118,8 @@ main section, main div {
   border: 1px solid grey;
   background-color: rgb(235, 235, 235);
   min-height: 150px;
+  margin-bottom: 20px;
+
 }
 main div.sl section:nth-child(3) {
   display: none;
@@ -126,6 +129,11 @@ main div.sl {
   display: flex;
   flex-direction: column;
   background-color: rgb(235, 235, 235);
+  margin-bottom: 0px;
+  
+}
+main div.sl section {
+  margin-bottom: 0px;
 }
 main section.join {
   display: none;
@@ -133,9 +141,9 @@ main section.join {
 main div.weather_news {
   display: flex;
   flex-direction: column;
-  gap: 15px;
   border: none;
   background-color: white;
+  margin-bottom: 0px;
 }
 
 /*Footer*/

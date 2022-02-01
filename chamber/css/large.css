@@ -34,14 +34,17 @@
   }
 
   /*Body*/
-
+  body main section {
+    margin-bottom: 0;
+  }
   body main {
     display: grid;
     grid-template-columns: repeat(4, 250px);
     grid-template-rows: repeat(3, 250px);
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    grid-gap: 15px;
+    
   }
   body main section.hero {
     grid-column: 2/4;
@@ -52,6 +55,7 @@
     grid-row: 3/4;
     display: grid;
     grid-template-columns: 250px 515px;
+
   }
 
   body main div.sl {
@@ -59,6 +63,7 @@
     grid-row: 1/4;
     flex-direction: column;
     gap: 0px;
+    margin-bottom: 0px;
   }
   main div.sl section:nth-child(3) {
     display: block;

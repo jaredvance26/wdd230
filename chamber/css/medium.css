@@ -21,17 +21,26 @@
   }
 
   /* body */
+
+  body main {
+    padding: 20px;
+
+  }
+  body main section.hero {
+    order: -3
+  }
+  body main section.event {
+    order: -2;
+  }
   main section.join {
     display: block;
   }
-  main section:nth-child(1),
-  main section:nth-child(2) {
-    order: -2;
-  }
+
   body main div.sl {
     order: -1;
     flex-direction: row;
     gap: 15px;
+    margin-bottom: 20px;
   }
   body main div.sl section.sl1 {
     flex: 1 1 auto;
@@ -46,6 +55,7 @@
     padding: 0px;
     margin-top: 0px;
     gap: 15px;
+    margin-bottom: 0px;
   }
   body main div.weather_news section.weather {
     flex: 2 1 auto;
