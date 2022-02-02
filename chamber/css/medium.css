@@ -23,6 +23,9 @@
     font-size: 3em;
   }
 
+  nav ul.open {
+    top: 40px;
+  }
   /* body */
 
   body main {
