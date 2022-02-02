@@ -41,6 +41,8 @@ header div.info {
   display: flex;
   flex: 1 1 auto;
   align-items: center;
+  justify-content: end;
+  padding-right: 20px;
 }
 
 .img_btn img {
