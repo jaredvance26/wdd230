@@ -127,8 +127,7 @@ nav ul.open li {
 }
 /*Body*/
 body main {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin: 15px;
   display: flex;
   flex-flow: column;
 
