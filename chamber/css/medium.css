@@ -19,6 +19,9 @@
   header nav button {
     font-size: 55px;
   }
+  header nav div.img_btn button {
+    font-size: 3em;
+  }
 
   /* body */
 
