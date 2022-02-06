@@ -3,7 +3,7 @@ let options = {
     day: "2-digit",
     month: "long",
     year: "numeric"
-    
+
 
 };
 
@@ -15,3 +15,9 @@ document.getElementById("date").innerText = today.toLocaleString(today, options)
 
 document.getElementById("updated").innerText = updated.toLocaleDateString();
 document.getElementById("time").innerText = updated.toLocaleTimeString();
+
+// Banner goes up on mondays and tuesdays
+
+if(today.getDay() == 1 | today.getDay() == 2) {
+    document.getElementById("banner").style.display = "block";
+};

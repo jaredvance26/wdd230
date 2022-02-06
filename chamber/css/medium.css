@@ -26,6 +26,11 @@
   nav ul.open {
     top: 40px;
   }
+
+  body div#banner {
+    font-size: .75em;
+    margin: 50px;
+  }
   /* body */
 
   body main {
@@ -41,21 +46,33 @@
   main section.join {
     display: block;
   }
+  main section.weather span {
+    font-size: 2.5em;
+    color: orange;
+  }
+  main section.weather h3 {
+    font-size:2em;
+    margin: 0;
+    margin-top: 0px;
+    
+  }
+  main section.weather h4 {
+    font-size: 1.5em;
+    padding: 15px;
+    
+  }
 
   body main div.sl {
     order: -1;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 15px;
     margin-bottom: 20px;
   }
-  body main div.sl section.sl1 {
-    flex: 1 1 auto;
-  }
-  body main div.sl section.sl2 {
-    flex: 1 1 auto;
-  }
+
   body main div.weather_news {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     border: none;
     background-color: white;
     padding: 0px;
@@ -63,11 +80,23 @@
     gap: 15px;
     margin-bottom: 0px;
   }
-  body main div.weather_news section.weather {
-    flex: 2 1 auto;
+
+  body main section.news p {
+    font-size: 1.25em;
+    line-height: 30px;
   }
-  body main div.weather_news section.news {
-    flex: 1 1 auto;
+  main section.join h2 {
+    background-color: #022765;
+    padding: 10px;
+    color: white;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 15px;
+  
+  }
+  main section.join p {
+    padding: 5px;
+    font-size: 1.25em;
   }
 
   /* Footer Flex */

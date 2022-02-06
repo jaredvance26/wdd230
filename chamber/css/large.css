@@ -1,5 +1,6 @@
 @media screen and (min-width: 70em) {
   /*Header*/
+
   header img.logo {
     max-width: 100%;
   }
@@ -13,8 +14,6 @@
   nav button {
     display: none;
   }
-
-
 
   nav ul li {
     display: block;
@@ -60,15 +59,21 @@
   }
 
   body main div.sl {
+    grid-template-columns: none;
     grid-column: 4/5;
     grid-row: 1/4;
-    flex-direction: column;
     gap: 0px;
     margin-bottom: 0px;
   }
   main div.sl section:nth-child(3) {
     display: block;
     flex: 1 1 auto;
+  }
+  main div.sl section:nth-child(1) p, main div.sl section:nth-child(2) p, main div.sl section:nth-child(3) p {
+   
+    font-size: .85em;
+
+ 
   }
 
   /* Footer */

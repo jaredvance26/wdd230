@@ -3,13 +3,18 @@ h2,
 h3,
 h4,
 h5,
-a {
+a,
+button{
   font-family: "Exo", sans-serif;
 }
 
-main h3 {
+main p {
   font-family: "Advent Pro", sans-serif;
-  font-size: 1em;
+  color: #ad4f14;
+}
+main h2 {
+  color: #022765;
+  text-align: center;
 }
 
 /* Header */
@@ -120,22 +125,53 @@ nav ul.open {
   min-height: 100%;
   opacity: .9;
   padding-bottom: 100px;
-  
+  z-index: 1;
 }
 nav ul.open li {
   display: block;
 }
+
+/* Banner */
+body div#banner {
+  text-align: center;
+  font-size: .5rem;
+  background-color: #ca5811;
+  color: white;
+  padding: 5px;
+  margin: 25px;
+  display: none;
+
+  
+}
 /*Body*/
+body main h2 {
+  font-size: 1.25em;
+}
 body main {
   margin: 15px;
   display: flex;
   flex-flow: column;
-
+}
+main section.hero {
+  position: relative;
+}
+main section.hero img{
+  max-width: 100%;
+  height: 100%;
   
 }
-main section h3 {
-  padding: 5px;
-}
+main section.hero button {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  padding: 15px;
+  background-color: #022765;
+  color: white;
+  border: 1px solid white;
+  opacity: .9;
+  
+} 
+
 main section, main div {
   border: 1px solid grey;
   background-color: rgb(235, 235, 235);
@@ -143,8 +179,57 @@ main section, main div {
   margin-bottom: 20px;
 
 }
-main div.sl section:nth-child(3) {
-  display: none;
+
+main section.event p {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 1.25em;
+
+}
+
+main section.weather {
+  background-color: #022765;
+  color: white;
+}
+main section.weather h2 {
+  color: white;
+}
+main section.weather div {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  background-color: #022765;
+  margin: 0;
+  min-height: 20px;
+  
+}
+main section.weather span {
+  font-size: 5em;
+  color: orange;
+}
+main section.weather h3 {
+  font-size: 3em;
+  margin: 0;
+  margin-top: 15px;
+  
+}
+main section.weather h4 {
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  border-bottom: 1px solid white;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+main section.weather h5 {
+  font-size: 1em;
+  text-align: center;
+}
+section.news p{
+  padding: 5px;
 }
 main div.sl {
   padding: 15px;
@@ -154,9 +239,47 @@ main div.sl {
   margin-bottom: 0px;
   
 }
+main div.sl section:nth-child(1) img {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+main div.sl section:nth-child(1) {
+  flex: 1 1 auto;
+}
+
+main div.sl section:nth-child(1) p, main div.sl section:nth-child(2) p, main div.sl section:nth-child(3) p {
+  text-align: center;
+  font-size: 1.15em;
+  margin-bottom: 0px;
+}
 main div.sl section {
   margin-bottom: 0px;
 }
+main div.sl section:nth-child(2) {
+  flex: 1 1 auto;
+}
+main div.sl section:nth-child(2) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 200px;
+  height: auto;
+}
+main div.sl section:nth-child(3) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 150px;
+  height: auto;
+}
+main div.sl section:nth-child(3) {
+  display: none;
+}
+
 main section.join {
   display: none;
 }
