@@ -47,8 +47,6 @@ header div.info {
   flex: 1 1 auto;
   align-items: center;
   justify-content: end;
- 
-
 }
 
 .img_btn img {
@@ -87,7 +85,11 @@ nav ul li {
   display: none;
   list-style: none;
   border-bottom: 1px solid lightgrey;
-  padding: 15px;
+  padding: 20px;
+}
+nav ul li a.current {
+  text-decoration: underline;
+  color: yellow;
 }
 nav ul li a {
   text-decoration: none;
@@ -105,6 +107,9 @@ header.open img {
 header.open div.info {
   display: none;
 }
+header.open nav div.img_btn {
+  display: block;
+}
 
 button.open span:nth-child(1) {
   display: none;
@@ -112,6 +117,7 @@ button.open span:nth-child(1) {
 button.open span:nth-child(2) {
   display: block;
   font-size: 1em;
+  margin-left:90vw;
 }
 nav ul.open {
   padding-left: 0;
@@ -130,6 +136,11 @@ nav ul.open {
 nav ul.open li {
   display: block;
 }
+nav ul.open li:hover {
+  background-color: #0548bb;
+  color: #022765;
+}
+
 
 /* Banner */
 body div#banner {
@@ -228,6 +239,15 @@ main section.weather h5 {
   font-size: 1em;
   text-align: center;
 }
+
+main section.weather span#speed {
+  color: white;
+  font-size: 1em;
+}
+main section.weather span#chill {
+  color: white;
+  font-size: 1em;
+}
 section.news p{
   padding: 5px;
 }
@@ -290,6 +310,7 @@ main div.weather_news {
   background-color: white;
   margin-bottom: 0px;
 }
+
 
 /*Footer*/
 

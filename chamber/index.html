@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Queen Creek Commerce</title>
 
-  <!--Google fonts-->
+  <!--Google fonts/icons-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Exo&display=swap" rel="stylesheet" />
@@ -26,7 +26,7 @@
 
 <body>
   <header id="menu">
-    <img src="images/logo.png" alt="logo" width="600" height="600" class="logo" />
+    <img src="images/logo-600.png" alt="logo" width="600" height="600" class="logo" />
     <div class="info">
       <h1>Queen Creek</h1>
       <h2>Chamber of Commerce</h2>
@@ -38,7 +38,7 @@
         <button id="ham_btn"><span>☰</span><span>&#x2715;</span></button>
       </div>
       <ul id="main_nav">
-        <li><a href="index.html">Home</a></li>
+        <li><a class="current" href="index.html">Home</a></li>
         <li><a href="#">Discovery</a></li>
         <li><a href="#">Directory</a></li>
         <li><a href="#">Join</a></li>
@@ -71,13 +71,14 @@
        
         <h2>Weather</h2>
         <div>
-        <span class="material-icons">
+        <span class="material-icons icon">
           brightness_low
           </span>
-          <h3>77&#176; F</h3>
+          <h3 id="temp">66</h3><h3>&#176;F</h3>
         </div>
         <h4>Sunny</h4>
-        <h5>Wind Speed: 3mph</h5>
+        <h5>Wind Speed: <span id="speed">3</span> mph</h5>
+        <h5>Wind Chill: <span id="chill"></span></h5>
         
       </section>
       <section class="news">
@@ -105,7 +106,11 @@
   </main>
   <footer>
     <div class="footer_flex">
-      <img src="images/logo.png" alt="logo" width="600" height="600" class="logo" />
+      <img src="images/logo-600.png" alt="logo" width="600" height="600" class="logo"
+      srcset="images/logo-200.png 400w,
+              images/logo-400.png 550w"
+      sizes="(max-width: 200px) 200px,50vw" />
+      
       <div>
         <h3>Queen Creek Chamber of Commerce</h3>
         <h4>Queen Creek, AZ 85142</h4>
@@ -127,6 +132,7 @@
 
   <script src="js/menu.js"></script>
   <script src="js/date.js"></script>
+  <script src="js/windChill.js"></script>
 </body>
 
 </html>
