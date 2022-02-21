@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+    <main>
+        <p> Your last visit was on <span id="last-visit">3/26/2000</span></p>
+        <p>That was <span id="last-visit-seconds">0</span> seconds</p>
+        <p>That was <span id="last-visit-days">0</span> days</p>
+    </main>
+    
+    <script>
+        let lastVisitDate;
+        const now = Date.now();
+        if(window.localStorage.getItem('last-visit-date')) {
+            // do something
+            lastVisitDate = window.localStorage.getItem("last-visit-date")
+        }
+        else {
+            // something else
+            lastVisitDate = now;
+        }
+
+        window.localStorage['last-visit-date'] = now;
+
+        // math
+        const secondsSinceLastVisit = Math.floor((now - lastVisitDate)/1000) ;
+
+        const daysSinceLastVisit = Math.floor((now - lastVisitDate)/86400) ;
+
+    
+        document.querySelector('#last-visit-seconds').textContent = secondsSinceLastVisit;
+        document.querySelector('#last-visit-days').textContent = daysSinceLastVisit;
+        
+    </script>
+</body>
+</html>

@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Queen Creek Commerce</title>
+  <meta name="description" content="Chamber of Commerce website for Queen Creek, AZ">
 
   <!--Google fonts/icons-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,13 +21,18 @@
   <link rel="stylesheet" href="css/large.css" />
  
 
+
   <!--Favicon-->
   <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 
 <body>
   <header id="menu">
-    <img src="images/logo-600.png" alt="logo" width="600" height="600" class="logo" />
+    <img src="images/logo-600.png" alt="logo" width="600" height="600" class="logo"
+    srcset="images/logo-200.png 400w,
+            images/logo-400.png 550w"
+    sizes="(max-width: 200px) 200px,50vw" />
+
     <div class="info">
       <h1>Queen Creek</h1>
       <h2>Chamber of Commerce</h2>
@@ -39,7 +45,7 @@
       </div>
       <ul id="main_nav">
         <li><a class="current" href="index.html">Home</a></li>
-        <li><a href="#">Discovery</a></li>
+        <li><a href="discovery/">Discovery</a></li>
         <li><a href="#">Directory</a></li>
         <li><a href="#">Join</a></li>
         <li><a href="#">Contact</a></li>
@@ -54,7 +60,12 @@
   </div>
   <main>
     <section class="hero">
-      <img src="images/qc.jpg" alt="picture of Queen Creek, AZ" width="1800" height="1200">
+      <img src="images/qc.jpg" alt="picture of Queen Creek, AZ" width="1800" height="1200"
+      srcset="images/qc900.jpg 550w,
+              images/qc450.jpg 300w"
+      sizes="(max-width: 200px) 200px,50vw">
+      
+              
       <button>Join Chamber</button>
     </section>
     <section class="event">
