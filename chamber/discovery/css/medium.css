@@ -1,0 +1,23 @@
+@media screen and (min-width: 44em) {
+
+    header h1 {
+        font-size: 1.5em;
+    }
+    header button {
+        font-size: 3em;
+    }
+    body main {
+        display: grid;
+        grid-template-columns: 1fr  1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    body main section:hover {
+        background-color: rgb(128, 127, 127);
+    }
+
+    body main section:hover h2 {
+        color: white;
+    }
+}

@@ -1,0 +1,23 @@
+@media screen and (min-width: 70em) {
+
+    header nav ul {
+        display: flex;
+    }
+    header button {
+        display:none;
+    }
+    header nav ul li  {
+        border: none;
+    }
+
+    header nav ul li a {
+        font-size: 1.25em;
+    }
+    
+    body main {
+        max-width: 85vw;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+}

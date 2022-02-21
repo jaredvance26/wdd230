@@ -7,7 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discovery</title>
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Exo&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 
 <body>
@@ -23,6 +30,7 @@
         </div>
 
         <button id="ham_btn"><span></span>☰<span>&#x2715;</span></button>
+
         <nav>
             <ul id="menu">
                 <li><a href="../">Home</a></li>
@@ -141,33 +149,35 @@
     
         <h2>The natural history museum has a lot of great and fun info!</h2>
     </section>
-    <footer>
-        <div class="footer_flex">
-          <img src="../images/logo-600.png" alt="logo" width="600" height="600" class="logo"
-          srcset="../images/logo-200.png 400w,
-                  ../images/logo-400.png 550w"
-          sizes="(max-width: 200px) 200px,50vw" />
-          
-          <div>
-            <h3>Queen Creek Chamber of Commerce</h3>
-            <h4>Queen Creek, AZ 85142</h4>
-          </div>
-          <div>
-            <h4>info@azcommerce.org</h4>
-            <a
-              href="https://www.google.com/maps/place/Queen+Creek,+AZ/@33.2234982,-111.747439,11z/data=!3m1!4b1!4m5!3m4!1s0x872a4c65d79a826d:0x222c5c0cfe71e0e0!8m2!3d33.2580532!4d-111.6382138">
-              <h4>📍 Location Map</h4>
-            </a>
-          </div>
-        </div>
-        <h5>&copy; QC Commerce | Jared Vance | WDD 230 Project</h5>
-    
-        <h5>
-          last updated: <span id="updated"></span> at <span id="time"></span>
-        </h5>
-        <h5>last visited: <span id="days"></span> days ago</h5>
-      </footer>
+
 </main>
+
+<footer>
+    <div class="footer_flex">
+      <img src="../images/logo-600.png" alt="logo" width="600" height="600" class="logo"
+      srcset="../images/logo-200.png 400w,
+              ../images/logo-400.png 550w"
+      sizes="(max-width: 200px) 200px,50vw" />
+      
+      <div>
+        <h3>Queen Creek Chamber of Commerce</h3>
+        <h4>Queen Creek, AZ 85142</h4>
+      </div>
+      <div>
+        <h4>info@azcommerce.org</h4>
+        <a
+          href="https://www.google.com/maps/place/Queen+Creek,+AZ/@33.2234982,-111.747439,11z/data=!3m1!4b1!4m5!3m4!1s0x872a4c65d79a826d:0x222c5c0cfe71e0e0!8m2!3d33.2580532!4d-111.6382138">
+          <h4>📍 Location Map</h4>
+        </a>
+      </div>
+    </div>
+    <h5>&copy; QC Commerce | Jared Vance | WDD 230 Project</h5>
+
+    <h5>
+      last updated: <span id="updated"></span> at <span id="time"></span>
+    </h5>
+    <h5>last visited: <span id="days"></span> days ago</h5>
+  </footer>
 
 <script src="js/menu.js"></script>
 <script src="js/date.js"></script>
