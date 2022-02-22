@@ -13,6 +13,10 @@
     header nav ul li a {
         font-size: 1.25em;
     }
+
+    header nav ul li a:hover {
+        color: #fed700;
+    }
     
     body main {
         max-width: 85vw;

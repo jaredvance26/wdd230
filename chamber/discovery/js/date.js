@@ -1,7 +1,6 @@
 
 updated = new Date(document.lastModified);
 
-console.log(updated);
 
 document.getElementById("updated").innerText = updated.toLocaleDateString();
 document.getElementById("time").innerText = updated.toLocaleTimeString();
