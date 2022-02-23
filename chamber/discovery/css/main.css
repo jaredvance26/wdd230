@@ -90,7 +90,7 @@ header nav ul.open {
 }
 
 header button.open span:nth-child(1) {
-    display: none;
+    visibility: hidden;
 }
 
 header button.open span:nth-child(2) {
