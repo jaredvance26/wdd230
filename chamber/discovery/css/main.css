@@ -58,6 +58,10 @@ header nav ul li a {
     font-size: 1.5rem; 
 }
 
+header nav ul li a.current {
+    color: yellow;
+}
+
 /* When hamburger button is clicked*/
 body main.open {
     filter: blur(5px);
