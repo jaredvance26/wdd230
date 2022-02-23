@@ -1,8 +1,9 @@
 const images = document.querySelectorAll("[data-src]");
 
 const imgOptions = {
-    threshold: 0,
-    rootMargin: "0px 0px 300px 0px"
+    // threshold 0 will load image as soon as its viewed 
+    threshold: 1,
+    rootMargin: "0px 0px -10px 0px"
     
  
 };
