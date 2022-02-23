@@ -24,4 +24,13 @@
         grid-template-rows: 1fr 1fr 1fr;
         margin: 0 auto;
     }
+
+    footer img {
+        max-width: 15%;
+      }
+      footer div.footer_flex {
+        justify-content: space-around;
+      }
+    
+    
 }

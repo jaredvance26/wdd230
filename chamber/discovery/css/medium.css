@@ -20,4 +20,16 @@
     body main section:hover h2 {
         color: white;
     }
+
+    footer div.footer_flex {
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: space-between;
+    
+        align-items: center;
+        border-bottom: 1px solid white;
+      }
+    
+    
+    
 }
