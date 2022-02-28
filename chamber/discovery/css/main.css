@@ -25,6 +25,9 @@ header h1 {
 header div.title {
     align-self: center;
 }
+header div.title h1, header div.title h2 {
+   text-align: left;
+}
 
 header button {
     background-color: transparent;
