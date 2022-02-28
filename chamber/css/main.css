@@ -182,6 +182,11 @@ main section.hero button {
   opacity: .9;
   
 } 
+main section.hero button:hover {
+  cursor: pointer;
+  background-color: #0648BB;
+}
+
 
 main section, main div {
   border: 1px solid grey;

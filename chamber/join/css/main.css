@@ -1,0 +1,42 @@
+
+* {
+    font-family: "Exo", sans-serif;
+}
+h1 {
+    color: #022765;
+    text-align: center;
+}
+body form {
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+    padding: 15px;
+ 
+}
+
+
+body form label.top input{
+    display: block;
+    margin-bottom: 1.5em;
+    padding: 10px;
+    min-width: 250px;
+    
+}
+
+
+
+body form label.sbs {
+    margin-bottom: 1.5em;
+    display: block;
+}
+ body form input.button {
+     display: block;
+     margin: 0 auto;
+     padding: 25px;
+     font-size: 1.25em;
+     color: white;
+     background-color:  #022765;
+     
+ }
