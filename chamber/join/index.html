@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/large.css">
 
+    <link rel="stylesheet" href="../discovery/css/main.css">
+    <link rel="stylesheet" href="../discovery/css/medium.css">
+    <link rel="stylesheet" href="../discovery/css/large.css">
+
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,6 +19,27 @@
 </head>
 <body>
     <!--FORM TO JOIN CHAMBER-->
+    <header>
+
+        <img src="../images/logo-600.png" alt="logo" width="600" height="600" class="logo" srcset="../images/logo-200.png 400w,
+                ../images/logo-400.png 550w" sizes="(max-width: 200px) 200px,50vw" />
+        <div class="title">
+            <h1>Queen Creek</h1>
+            <h1>Chamber of Commerce</h1>
+        </div>
+
+        <button id="ham_btn"><span>☰</span><span>&#x2715;</span></button>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="../discovery/">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="./" class="current">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Join the Chamber</h1>
     
         <main class="grid">
@@ -68,5 +93,6 @@
                 </div>
             </main>
     <script src="js/date.js"></script>
+    <script src="../discovery/js/menu.js"></script>
 </body>
 </html>

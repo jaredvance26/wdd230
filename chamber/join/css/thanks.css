@@ -1,0 +1,13 @@
+* {
+    font-family: "Exo", sans-serif;
+}
+
+body div.confirm img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body div.confirm h1 {
+color: #75B03E;
+text-align: center;
+}

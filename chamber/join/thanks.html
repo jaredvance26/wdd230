@@ -5,8 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thanks for Joining</title>
+   
+    <link rel="stylesheet" href="../discovery/css/main.css">
+    <link rel="stylesheet" href="../discovery/css/medium.css">
+    <link rel="stylesheet" href="../discovery/css/large.css">
+    <link rel="stylesheet" href="css/thanks.css">
+
+     <!--Google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Exo&display=swap" rel="stylesheet" />
+ </head>
 </head>
 <body>
-    <img src="images/check-mark-verified.gif" alt="complete">
+    <header>
+
+        <img src="../images/logo-600.png" alt="logo" width="600" height="600" class="logo" srcset="../images/logo-200.png 400w,
+                ../images/logo-400.png 550w" sizes="(max-width: 200px) 200px,50vw" />
+        <div class="title">
+            <h1>Queen Creek</h1>
+            <h1>Chamber of Commerce</h1>
+        </div>
+
+        <button id="ham_btn"><span>☰</span><span>&#x2715;</span></button>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="../discovery/" class="current">Discovery</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="index.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="confirm">
+        <img src="images/check-mark-verified.gif" alt="complete">
+        <h1>Thanks for joining. Your application will be reviewed</h1>
+    </div>
+
+    <script src="../discovery/js/menu.js"></script>
 </body>
 </html>
