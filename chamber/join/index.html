@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Chamber</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/large.css">
 
     <!--Google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,25 +17,56 @@
     <!--FORM TO JOIN CHAMBER-->
     <h1>Join the Chamber</h1>
     
-        <form method="get" action="thanks.html">
-            <label class="top">First Name* <input type="text" name="fname" required></label>
-            <label class="top">Last Name* <input type="text" name="lname" required></label>
-            <label class="top">Title <input type="text" name="title"></label>
-            <label class="top">Email* <input type="email" placeholder="john@example.com" name="email" required></label>
-            <label class="top">Phone Number <input type="tel" name="tel"></label>
-            <label class="top">Business Name/Title* <input type="text" name="businessName"></label>
+        <main class="grid">
+            <form method="get" action="thanks.html">
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Title <input type="text" name="title"></label>
+                <label class="top">Email* <input type="email" placeholder="john@example.com" name="email" required></label>
+                <label class="top">Phone Number <input type="tel" name="tel"></label>
+                <label class="top">Business Name/Title* <input type="text" name="businessName"></label>
             
-            <div class="choices">Membership Level</div>
-            <div>
-                <label class="sbs"><input type="radio" name="radio" value="standard">Standard</label>
-                <label class="sbs"><input type="radio" name="radio" value="gold">Gold</label>
-                <label class="sbs"><input type="radio" name="radio" value="platinum">Platinum</label>
-            </div>
-            
-            <label class="top">Business Description <input type="textarea" name="description"></label>
-            <label><input id="time" type="hidden" name="time" value="timeStamp"></label>
-            <input class="button" type="submit" name="submitBtn" value="Join Chamber">
-    </div>
+                <div class="choices">Membership Level</div>
+                <div>
+                    <label class="sbs"><input type="radio" name="radio" value="standard">Standard</label>
+                    <label class="sbs"><input type="radio" name="radio" value="gold">Gold</label>
+                    <label class="sbs"><input type="radio" name="radio" value="platinum">Platinum</label>
+                </div>
+                <div>
+                <label class="top">Business Description <input type="textarea" name="description"></label>
+                <label><input id="time" type="hidden" name="time" value="timeStamp"></label>
+                <input class="button" type="submit" name="submitBtn" value="Join Chamber">
+                </div>
+                </form>
+
+                <div class="levels">
+                    <h2>Membership Levels</h2>
+                    <section class="standard">
+                        <h3>Standard</h3>
+                        <ul>
+                            <li>Join in the Chamber</li>
+                            <li>Market Products</li>
+                            <li>Streamline process</li>
+                        </ul>
+                    </section>
+                    <section class="gold">
+                        <h3>Gold</h3>
+                        <ul>
+                            <li>One day shout out </li>
+                            <li>Top Priority</li>
+                            <li>Receive join on gift</li>
+                        </ul>
+                    </section>
+                    <section class="platinum">
+                        <h3>Platinum</h3>
+                        <ul>
+                            <li>Everything above</li>
+                            <li>Shout out on main page every month</li>
+                            <li>Receive join on gift</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
     <script src="js/date.js"></script>
 </body>
 </html>

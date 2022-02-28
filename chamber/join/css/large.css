@@ -1,0 +1,48 @@
+@media screen and (min-width: 70em) {
+    body form {
+       margin-left: 0px;
+       margin-right: 0px;
+       
+    }
+    main {
+        max-width: 75vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.levels {
+        display: block; 
+        max-width: 300px;
+        align-self: center;
+       
+        padding: 15px;
+    }
+    div.levels section{
+    padding: 10px;
+    }
+    div.levels h2 {
+        font-size: 2em;
+    }
+    div.levels section h3 {
+        font-size: 1.5em;;
+    }
+
+    div.levels section.standard {
+        background-color: #022765;
+        color: white;
+       
+    }
+    div.levels section.gold {
+        background-color: #D6A501;
+        color: white;
+    }
+
+    div.levels section.platinum {
+        background-color: #DEDDDB;
+    }
+
+}

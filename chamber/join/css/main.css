@@ -40,3 +40,7 @@ body form label.sbs {
      background-color:  #022765;
      
  }
+
+ div.levels {
+     display: none;
+ }
