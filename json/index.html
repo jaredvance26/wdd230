@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes</title>
+</head>
+<body>
+    <div id="result"></div>
+
+
+    <script>
+        const url = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+        const resultElement = document.querySelector("div#result");
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+            // CODE TO INSERT DATA INTO THE PAGE
+            const h1 = document.createElement('h1');
+            h1.textContent = data.squadName;
+            resultElement.appendChild(h1);
+
+            const p1 = document.createElement('p');
+            p1.textContent = data.homeTown;
+            resultElement.appendChild(p1);
+
+            const p2 = document.createElement('p');
+            p2.textContent = data.formed;
+            resultElement.appendChild(p2);
+
+            const p3 = document.createElement('p');
+            p3.textContent = data.secretBase;
+            resultElement.appendChild(p3);
+
+            const p4 = document.createElement('p');
+            p4.textContent = data.active;
+            resultElement.appendChild(p4);
+
+            for (let member of data.members) {
+                displayHero(member);
+                
+            }
+            
+            function displayHero(member) {
+               
+                const section = document.createElement('section');
+
+                const h2 = document.createElement('h2');
+                h2.textContent = member.name;
+                section.appendChild(h2)
+
+                const p1 = document.createElement('p');
+                p1.textContent = member.age;
+                section.appendChild(p1)
+
+                const p2 = document.createElement('p');
+                p2.textContent = member.secretIdentity;
+                section.appendChild(p2)
+
+                const ul = document.createElement('ul');
+                ul.textContent = 'Powers: ';
+                
+                for (power of member.powers) {
+                    const li = document.createElement('li');
+                    li.textContent = power;
+
+                    ul.appendChild(li);
+                }
+                section.appendChild(ul);
+
+                resultElement.appendChild(section);
+            }
+            
+            
+            
+        })
+
+    </script>
+</body>
+</html>
