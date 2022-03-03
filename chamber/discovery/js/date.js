@@ -17,6 +17,8 @@ else {
     lastVisitDate = now;
 }
 
-const daySinceLastVisit = Math.floor((now - lastVisitDate)/86400);
+window.localStorage.getItem('last-visit-date') = now;
+
+const daySinceLastVisit = Math.floor((now - lastVisitDate)/ (86400 * 1000));
 
 document.getElementById('days').innerText = daySinceLastVisit;

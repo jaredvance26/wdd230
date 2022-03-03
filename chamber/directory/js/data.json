@@ -1,0 +1,76 @@
+{
+    "companies" : [
+        {
+            "name" : "Barney Family Sports Complex",
+            "address" : "22050 E Queen Creek Rd, Queen Creek, AZ 85142",
+            "phone" : "(480) 677-2372",
+            "website": "http://www.BarneyIndoorSports.com"
+        },
+        {
+            "name" : "Harkins Queen Creek 14",
+            "address" : "20481 E. Rittenhouse Road Queen Creek, AZ 85142",
+            "phone" : "(480) 344-4111",
+            "website": "http://www.harkinstheatres.com"
+        },
+        {
+            "name" : "Ted's Shooting Range",
+            "address" : "18395 S. 186th Way #106 Queen Creek, AZ 85212",
+            "phone" : "(480) 840-9202",
+            "website": "http://www.tedsrange.com"
+        },
+        {
+            "name" : "Babbo Italian Eatery",
+            "address" : "18521 E. Queen Creek Rd. Queen Creek, AZ 85142",
+            "phone" : "(480) 783-2355",
+            "website": "http://www.babboitalian.com"
+        },
+        {
+            "name" : "Pita Jungle",
+            "address" : "20491 E. Rittenhouse Road Queen Creek, AZ 85142",
+            "phone" : "(480) 987-6767",
+            "website": "http://www.pitajungle.com/"
+        },
+        {
+            "name" : "Smashburger",
+            "address" : "21202 S Ellsworth Loop Rd Suite 112, Queen Creek, AZ 85142",
+            "phone" : "(480) 888-9800",
+            "website": "http://www.smashburger.com"
+        },
+        {
+            "name" : "Arizona's Restoration Experts",
+            "address" : "6567, 22130 S Scotland Ct STE 101, Queen Creek, AZ 85142",
+            "phone" : "(602) 225-5669",
+            "website": "http://www.AZWaterFireMold.com"
+        },
+        {
+            "name" : "San Tan Wholesale Flooring LLC",
+            "address" : "22209 S Ellsworth Rd, Queen Creek, AZ 85142",
+            "phone" : "(480) 656-1133",
+            "website": "https://www.facebook.com/SanTanWholesaleFlooring/"
+        },
+        {
+            "name" : "The Eye Center",
+            "address" : " 21321 E. Ocotillo #105 Queen Creek, AZ 85142",
+            "phone" : "(480) 656-7739",
+            "website": "http://www.theeyeshopaz.com"
+        },
+        {
+            "name" : "Courtyard Marriott Phoenix Mesa Gateway Airport",
+            "address" : "6907 E Ray Rd, Mesa, AZ 85212",
+            "phone" : "(480) 351-7088",
+            "website": "http://www.marriott.com/PHXMZ"
+        },
+        {
+            "name" : "The Bike Shop",
+            "address" : "7215 S Power Rd 106 Queen Creek, AZ 85142",
+            "phone" : "(480) 292-7600",
+            "website": "http://www.thebikeshopaz.com"
+        },
+        {
+            "name" : "Queen Creek Performing Arts Center",
+            "address" : "22149 E. Ocotillo Road Queen Creek, AZ 85142",
+            "phone" : "(480) 987-7469",
+            "website": "http://www.QCPAC.com"
+        }
+    ]
+}
