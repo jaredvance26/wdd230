@@ -14,11 +14,7 @@ h1 {
 
 
 /*------- MAIN -------*/
-main div {
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    grid-gap: .5em;
-}
+
 main div section {
     text-align: center;
     border: 2px solid black;
@@ -27,6 +23,12 @@ main div section {
     
 }
 
+img {
+    max-width: 350px;
+    width: 80%;
+    height: auto;
+ 
+}
 
 /*------- FOOTER -------*/
 footer h3 {
@@ -38,26 +40,8 @@ footer h3 {
 @media screen and (min-width: 32.5em) {
     main div {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
         grid-gap: .5em;
     }
 }
 
-/*Medium Large View */
-@media screen and (min-width: 65em) {
-    main div {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        grid-gap: .5em;
-    }
-
-}
-
-/*Large View*/
-@media screen and (min-width: 100em) {
-    main div {
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-        grid-gap: .5em;
-    }
-}

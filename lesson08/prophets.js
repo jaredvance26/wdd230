@@ -18,7 +18,7 @@ fetch(url)
             dob.textContent = `Date of Birth: ${prophet.birthdate}`
 
             let birthPlace = document.createElement('p');
-            birthPlace.textContent = `Place of Birth: ${prophet.birthdate}`
+            birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`
 
             let picture = document.createElement('img');
             picture.src = prophet.imageurl;
