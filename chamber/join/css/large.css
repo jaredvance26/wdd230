@@ -2,24 +2,26 @@
     body form {
        margin-left: 0px;
        margin-right: 0px;
+       max-width: 75%;
        
     }
-    main.center {
+    body main.center {
         max-width: 75vw;
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+      
+       
     }
 
     div.levels {
         display: block; 
         max-width: 300px;
         align-self: center;
-       
         padding: 15px;
+        grid-column: 2/3;
     }
     div.levels section{
     padding: 10px;
@@ -30,6 +32,7 @@
     div.levels section h3 {
         font-size: 1.5em;;
     }
+
 
     div.levels section.standard {
         background-color: #022765;

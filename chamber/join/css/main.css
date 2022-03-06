@@ -2,12 +2,15 @@
 * {
     font-family: "Exo", sans-serif;
 }
+body main.center {
+    display: block;
+}
 h1 {
     color: #022765;
     text-align: center;
 }
 body form {
-    max-width: 70%;
+    max-width: 75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -21,11 +24,10 @@ body form label.top input{
     display: block;
     margin-bottom: 1.5em;
     padding: 10px;
-    min-width: 250px;
+    min-width: 90%;
+   
     
 }
-
-
 
 body form label.sbs {
     margin-bottom: 1.5em;
@@ -33,14 +35,27 @@ body form label.sbs {
 }
  body form input.button {
      display: block;
-     min-width: 100%;
+     max-width: 50%;
      padding: 25px;
      font-size: 1.25em;
      color: white;
      background-color:  #022765;
+     margin-left: auto;
+     margin-right: auto;
      
  }
+
+ body form textarea {
+    
+    display: block;
+    max-width: 90%;
+    padding: 15px;
+    margin-bottom: 1.5em;
+   
+ }
+
 
  div.levels {
      display: none;
  }
+
