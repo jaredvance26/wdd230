@@ -54,7 +54,7 @@
             "address" : "22209 S Ellsworth Rd, Queen Creek, AZ 85142",
             "phone" : "(480) 656-1133",
             "website": "https://www.facebook.com/SanTanWholesaleFlooring/",
-            "pic_url" : "images/flooring.png"
+            "pic_url" : "images/flooring.jpg"
         },
         {
             "name" : "The Eye Center",
@@ -82,7 +82,7 @@
             "address" : "22149 E. Ocotillo Road Queen Creek, AZ 85142",
             "phone" : "(480) 987-7469",
             "website": "http://www.QCPAC.com",
-            "pic_url" : "images/pcpac.jpg"
+            "pic_url" : "images/qcpac.jpg"
         }
     ]
 }
