@@ -3,9 +3,26 @@ body {
     margin-left: 5em;
     margin-right: 5em;
 }
+div.buttons {
+    max-width: 100px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+}
+button {
+    padding: 5px;
+    margin-bottom: 15px;
+    color: white;
+    background-color:#022765;
+    border:none;
+}
 /* --------------TABLE -------------- */ 
+
 body main div.table {
     display:none;
+    
+    
+    
 }
 body main div.table table tr td {
     border: 1px solid #022765;
@@ -49,9 +66,20 @@ body main.list div.table {
     display:block;
  
 }
+body main.list div.table table {
+    max-width: 75%;
+    margin-left:auto;
+    margin-right: auto;
+}
+body main.list div.buttons button:nth-child(2) {
+    background-color:#0648BB;
+}
 body main.card div.table {
     display:none;
 }
 body main.card div.cards {
     display: grid;
+}
+body main.card div.buttons button:nth-child(1) {
+    background-color: #0648BB;
 }
