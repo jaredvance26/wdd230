@@ -1,0 +1,57 @@
+
+body {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+/* --------------TABLE -------------- */ 
+body main div.table {
+    display:none;
+}
+body main div.table table tr td {
+    border: 1px solid #022765;
+    padding: 15px;
+    color: white;
+}
+body main div.table table tr:nth-child(odd) td {
+    background-color: #5982c9 ;
+}
+body main div.table table tr:nth-child(even) td {
+    background-color: lightgray;
+    color: black;
+}
+/* --------------CARDS -------------- */ 
+body main div.cards div img {
+    max-width: 300px;
+    height: auto; 
+}
+
+body main div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-gap: 1.5em;
+    
+}
+
+body main div.cards div {
+    border: 1px solid lightgrey;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 10px 5px 5px grey;
+   
+}
+
+/* --------------BUTTON PRESS -------------- */ 
+
+body main.list div.cards{
+    display:none;
+}
+body main.list div.table {
+    display:block;
+ 
+}
+body main.card div.table {
+    display:none;
+}
+body main.card div.cards {
+    display: grid;
+}
