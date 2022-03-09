@@ -6,7 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Directory</title>
 
-  
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Exo&display=swap" rel="stylesheet" />
+        
+
+   
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
     rel="stylesheet">
@@ -14,6 +20,27 @@
 
 </head>
 <body>
+    <header>
+
+        <img src="../images/logo-600.png" alt="logo" width="600" height="600" class="logo" srcset="../images/logo-200.png 400w,
+                ../images/logo-400.png 550w" sizes="(max-width: 200px) 200px,50vw" />
+        <div class="title">
+            <h1>Queen Creek</h1>
+            <h1>Chamber of Commerce</h1>
+        </div>
+
+        <button id="ham_btn"><span>☰</span><span>&#x2715;</span></button>
+
+        <nav>
+            <ul id="menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="../discovery/">Discovery</a></li>
+                <li><a href="./" class="current">Directory</a></li>
+                <li><a href="../join/">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
    
     <main id="switch">
         <div class="buttons">
@@ -32,13 +59,22 @@
 
 
         
-        <div class="table"></div>
+        <div class="table">
+  
+        </div>
   
     </main>
-   
+    <script src="../discovery/js/menu.js"></script>
     <script src="js/button.js"></script>
     <script src="js/business.js"></script>
+   
 
+
+ <script>
+     document.getElementById("ham_btn").addEventListener("click", () => {
+        document.getElementById("ham_btn").classList.toggle("open");
+     })
+ </script>
 
 </body>
 </html>

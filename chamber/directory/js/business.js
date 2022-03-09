@@ -1,6 +1,7 @@
 const json_file = "https://raw.githubusercontent.com/jaredvance26/wdd230/main/chamber/directory/js/data.json";
 const cardView = document.querySelector("div.cards");
 const listView = document.querySelector("div.table");
+
 let table = document.createElement("table");
 
 fetch(json_file)
@@ -9,6 +10,7 @@ fetch(json_file)
 
         for (let company of data.companies) {
             createCard(company);
+            createRows(company)
             createTable(company);
         }
 
@@ -37,9 +39,41 @@ fetch(json_file)
 
             cardView.appendChild(card);
           };
+
+        function createRows(company) {
+            let smallView = document.createElement("div");
+            smallView.className = "smallView";
+
+            let section = document.createElement("section")
+
+            let companyName = document.createElement("h1");
+            companyName.textContent = company.name;
+
+            let companyAddress = document.createElement("p");
+            companyAddress.textContent = company.address;
+
+            let companyNumber = document.createElement("p");
+            companyNumber.textContent = company.phone;
+
+            let companyWebsite = document.createElement("p");
+            companyWebsite.textContent= company.website;
+
+            section.appendChild(companyName);
+            section.appendChild(companyAddress);
+            section.appendChild(companyNumber);
+            section.appendChild(companyWebsite);
+
+            smallView.appendChild(section);
+            listView.appendChild(smallView);
+
+
+
+        };
         
 
         function createTable(company) {
+            let largeView = document.createElement("div");
+            largeView.className = "largeView"
             let row = document.createElement("tr");
 
             let compName = document.createElement("td");
@@ -57,7 +91,9 @@ fetch(json_file)
             
             table.appendChild(row);
 
-            listView.appendChild(table)
+            largeView.appendChild(table)
+            listView.appendChild(largeView)
+
 
             
 

@@ -1,20 +1,138 @@
+/* --------------HEADER -------------- */ 
 
-body {
-    margin-left: 5em;
-    margin-right: 5em;
+* {
+    font-family: "Exo", sans-serif;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    background-color: #022765;
+    margin-bottom: 30px;
+    position: relative;
+}
+header img {
+    max-width: 100%;
+    height: auto;
+}
+header h1 {
+    font-size: 1rem;
+    color: white;
+}
+header div.title {
+    align-self: center;
+}
+header div.title h1, header div.title h2 {
+   text-align: left;
+}
+
+header button {
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: white;
+    align-self: start;
+    justify-self: end;
+}
+
+header button span:nth-child(2) {display: none;}
+
+header nav ul {
+    display: none;
+    padding: 0;}
+
+header nav ul li {
+    border-bottom: 1px solid white;
+    padding: 30px;
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+    
+  
+}
+header nav ul li a {
+    display: inherit;
+    color: white;
+    text-decoration: none;
+    text-align: center; 
+    font-size: 1.5rem; 
+}
+header nav ul li a.current {
+    color: yellow;
+}
+
+header nav ul li a.current {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* When hamburger button is clicked*/
+body main.open {
+    filter: blur(5px);
+}
+
+
+body header nav ul.open {
+    display: block;
+    position: absolute;
+    top: 0px;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #022765;
+    opacity: .9;
+    z-index: 1;
+    margin: 0;
+    padding-bottom: 50px;
+
+
+  
+}
+
+header button.open span:nth-child(1) {
+    visibility: hidden;
+}
+
+body header button.open span:nth-child(2) {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    right: 5px;
+    font-size: 3rem;
+}
+/* --------------MAIN-------------- */ 
+
+body main div.smallView section h1 {
+    color: #022765;
+    font-size: 1.25em;
+}
+body main div.smallView section {
+    background-color: rgb(233, 233, 233);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+body main div.largeView {
+    display:none;
 }
 div.buttons {
-    max-width: 100px;
+    max-width: 125px;
     display:block;
     margin-left:auto;
     margin-right: auto;
+    
 }
 button {
-    padding: 5px;
+    padding: 15px;
     margin-bottom: 15px;
     color: white;
     background-color:#022765;
     border:none;
+    
+}
+main div.buttons button span {
+    font-size: 2.25em;
 }
 /* --------------TABLE -------------- */ 
 
@@ -44,7 +162,7 @@ body main div.cards div img {
 
 body main div.cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-gap: 1.5em;
     
 }
@@ -82,4 +200,41 @@ body main.card div.cards {
 }
 body main.card div.buttons button:nth-child(1) {
     background-color: #0648BB;
+}
+
+/*------HEADER/FOOTER AT LARGER VIEW------*/
+@media screen and (min-width: 70em) {
+
+    header nav ul {
+        display: flex;
+    }
+    header button {
+        display:none;
+    }
+    header nav ul li  {
+        border: none;
+    }
+
+    header nav ul li a {
+        font-size: 1.25em;
+    }
+
+    header nav ul li a:hover {
+        color: #fed700;
+    }
+    body main div.smallView {
+        display:none;
+    }
+    body main div.largeView {
+        display:block;
+    }
+
+    footer img {
+        max-width: 15%;
+      }
+      footer div.footer_flex {
+        justify-content: space-around;
+      }
+    
+    
 }
