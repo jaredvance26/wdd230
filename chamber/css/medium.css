@@ -46,10 +46,7 @@
   main section.join {
     display: block;
   }
-  main section.weather span {
-    font-size: 2.5em;
-    color: orange;
-  }
+
   main section.weather h3 {
     font-size:2em;
     margin: 0;
