@@ -12,7 +12,7 @@ fetch(url)
     const icon = data.weather[0].icon;
     const desc = data.weather[0].description;
 
-    src = `http://openweathermap.org/img/wn/${icon}@2x.png`
+    src = `https://openweathermap.org/img/wn/${icon}@2x.png`
 
     document.getElementById("icon").src = src;
     document.getElementById("icon").alt = `${desc} icon`;

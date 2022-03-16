@@ -63,6 +63,13 @@
   body main section.weather div {
     max-height: 50px;
   }
+  body main div.sl section h2 {
+    font-size: 1.25em;
+    padding: 10px;
+  }
+  body main div.sl section a {
+    font-size: .75em;
+  }
 
   body main div.sl {
     grid-template-columns: none;
@@ -75,12 +82,7 @@
     display: block;
     flex: 1 1 auto;
   }
-  main div.sl section:nth-child(1) p, main div.sl section:nth-child(2) p, main div.sl section:nth-child(3) p {
-   
-    font-size: .85em;
 
- 
-  }
 
   /* Footer */
   footer img {

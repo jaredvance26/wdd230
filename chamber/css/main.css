@@ -261,12 +261,13 @@ main div.sl {
   margin-bottom: 0px;
   
 }
-main div.sl section:nth-child(1) img {
+main div.sl section img {
   display: block;
-  max-width: 200px;
+  max-width: 50%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5px;
   
 }
 main div.sl section:nth-child(1) {
@@ -280,24 +281,19 @@ main div.sl section:nth-child(1) p, main div.sl section:nth-child(2) p, main div
 }
 main div.sl section {
   margin-bottom: 0px;
+  background-color: white;
 }
 main div.sl section:nth-child(2) {
   flex: 1 1 auto;
 }
-main div.sl section:nth-child(2) img {
+
+
+main div.sl section a {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 200px;
-  height: auto;
+  text-align: center;
+  margin-bottom: 5px;
 }
-main div.sl section:nth-child(3) img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 150px;
-  height: auto;
-}
+
 main div.sl section:nth-child(3) {
   display: none;
 }
