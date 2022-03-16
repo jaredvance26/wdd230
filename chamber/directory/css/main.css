@@ -104,6 +104,12 @@ body header button.open span:nth-child(2) {
 }
 /* --------------MAIN-------------- */ 
 
+body h1 {
+    color:#022765;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 body main div.smallView section h1 {
     color: #022765;
     font-size: 1.25em;
