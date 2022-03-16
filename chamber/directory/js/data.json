@@ -6,7 +6,7 @@
             "phone" : "(480) 677-2372",
             "website": "http://www.BarneyIndoorSports.com",
             "pic_url" : "images/barn.jpg",
-            "membership" : "standard"
+            "membership" : "gold"
         },
         {
             "name" : "Harkins Queen Creek 14",
@@ -86,7 +86,7 @@
             "phone" : "(480) 292-7600",
             "website": "http://www.thebikeshopaz.com",
             "pic_url" : "images/bikeshop.png",
-            "membership" : "standard"
+            "membership" : "platinum"
         },
         {
             "name" : "Queen Creek Performing Arts Center",
