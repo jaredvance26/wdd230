@@ -20,7 +20,7 @@ fetch(url)
 
         // These if statements make sure that the indexes of 
         // premium list dont surpass or go below the length
-        if(sl1 == 5) {
+        if(sl1 == premium.length -1) {
             sl2 = sl1 -1;
             sl3 = sl2 - 1;
         }
