@@ -16,6 +16,7 @@ body form {
     margin-right: auto;
     background-color: lightgrey;
     padding: 15px;
+    margin-bottom: 50px;
  
 }
 
@@ -37,11 +38,13 @@ body form label.sbs {
      display: block;
      max-width: 50%;
      padding: 25px;
-     font-size: 1.25em;
+     font-size: 1em;
+     padding-left: 20px;
      color: white;
      background-color:  #022765;
      margin-left: auto;
      margin-right: auto;
+    
      
  }
 
@@ -59,3 +62,18 @@ body form label.sbs {
      display: none;
  }
 
+ footer {
+    text-align: center;
+    background-color: #022765;
+    color: white;
+    padding: 10px;
+  }
+  footer img {
+    max-width: 30%;
+    height: auto;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #fed700;
+  }

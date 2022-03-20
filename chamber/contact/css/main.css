@@ -1,9 +1,8 @@
-/* --------------HEADER -------------- */ 
-
 * {
     font-family: "Exo", sans-serif;
 }
 
+/*-------------HEADER------------- */
 
 header {
     display: grid;
@@ -102,113 +101,58 @@ body header button.open span:nth-child(2) {
     right: 5px;
     font-size: 3rem;
 }
-/* --------------MAIN-------------- */ 
-body main {
+
+/*-------------MAIN------------- */
+main h1 {
+    text-align: center;
+    color:#022765;
     margin-bottom: 50px;
 }
-body h1 {
-    color:#022765;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-body main div.smallView section h1 {
-    color: #022765;
-    font-size: 1.25em;
-}
-body main div.smallView section {
-    background-color: rgb(233, 233, 233);
-    padding: 15px;
-    margin-bottom: 10px;
-}
-body main div.largeView {
-    display:none;
-}
-div.buttons {
-    max-width: 125px;
-    display:block;
-    margin-left:auto;
+form {
+    display: block;
+    max-width: 600px;
+    margin-left: auto;
     margin-right: auto;
-    
-}
-button {
-    padding: 15px;
-    margin-bottom: 15px;
-    color: white;
-    background-color:#022765;
-    border:none;
-    
-}
-main div.buttons button span {
-    font-size: 2.25em;
-}
-/* --------------TABLE -------------- */ 
-
-body main div.table {
-    display:none;
-    
-    
-    
-}
-body main div.table table tr td {
-    border: 1px solid #022765;
-    padding: 15px;
-    color: white;
-}
-body main div.table table tr:nth-child(odd) td {
-    background-color: #5982c9 ;
-}
-body main div.table table tr:nth-child(even) td {
-    background-color: lightgray;
-    color: black;
-}
-/* --------------CARDS -------------- */ 
-body main div.cards div img {
-    max-width: 300px;
-    height: auto; 
-}
-
-body main div.cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-    grid-gap: 1.5em;
-    
-}
-
-body main div.cards div {
-    border: 1px solid lightgrey;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 10px 5px 5px grey;
-   
-}
-
-/* --------------BUTTON PRESS -------------- */ 
-
-body main.list div.cards{
-    display:none;
-}
-body main.list div.table {
-    display:block;
+    margin-bottom: 100px;
  
 }
-body main.list div.table table {
-    max-width: 75%;
-    margin-left:auto;
+form label {
+    display: block;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.25em;
+}
+form label input{
+    display:block;
+    margin-bottom: 1.5em;
+    padding: 10px;
+    min-width: 350px;
+    
+}
+form input.button {
+    padding: 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #022765;
+    margin-top: 30px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 150px;
+}
+
+/*-------------MAIN THANKS PAGE ------------- */
+main img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
     margin-right: auto;
 }
-body main.list div.buttons button:nth-child(2) {
-    background-color:#0648BB;
+main h1#thanks {
+    color: #75B03F;
 }
-body main.card div.table {
-    display:none;
-}
-body main.card div.cards {
-    display: grid;
-}
-body main.card div.buttons button:nth-child(1) {
-    background-color: #0648BB;
-}
+/*-------------FOOTER------------- */
 
 footer {
     text-align: center;
@@ -225,11 +169,7 @@ footer {
     text-decoration: none;
     color: #fed700;
   }
-
-
-/*------HEADER/FOOTER AT LARGER VIEW------*/
-@media screen and (min-width: 70em) {
-
+  @media screen and (min-width: 70em) {
     header nav ul {
         display: flex;
     }
@@ -246,17 +186,8 @@ footer {
 
     header nav ul li a:hover {
         color: #fed700;
-    }
-    body main {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-    body main div.smallView {
-        display:none;
-    }
-    body main div.largeView {
-        display:block;
-    }
+    } 
+    
     footer img {
         max-width: 15%;
     }
@@ -269,7 +200,4 @@ footer {
         align-items: center;
         border-bottom: 1px solid white;
       }
-    
-    
-    
-}
+  }
