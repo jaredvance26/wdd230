@@ -1,0 +1,91 @@
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Didact Gothic', sans-serif;
+    font-weight: 100;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*-------------- HEADER -------------- */
+
+header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #EBEBEB;
+    position: relative;
+}
+header img {
+    justify-self: start;
+    align-self: start;
+}
+ul {
+    display: none;
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    
+}
+ul li {
+    border-bottom: 1px solid black;
+    padding: 1.5em;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    align-self: start;
+    justify-self: end;
+}
+button span {
+    font-size: 2.5em;
+    color: #D2A04B;
+    
+}
+button span:nth-child(2) {display: none;}
+
+/* -- Hamburger Menu Clicked -- */
+
+
+header.switch ul {
+   
+    display: block;
+    position: absolute;
+    background-color: #D2A04B;
+    opacity: 85%;
+    min-width: 100vw;
+    min-height: 100vh;
+  
+}
+header.switch button span:nth-child(2) {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    right: 5px;
+}
+
+header.switch span:nth-child(1) {display:none;}
+
+
+
+/*-------------- FOOTER -------------- */
+footer {
+    background-color: #EBEBEB;
+    text-align: center;
+}
+footer h2 a {
+    font-size: .75em;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #D2A04B;
+}
+
+footer img {
+    padding: 10px;
+}
