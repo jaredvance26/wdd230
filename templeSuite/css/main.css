@@ -13,15 +13,17 @@ a {
 
 /*-------------- HEADER -------------- */
 
+
 header {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 1fr 3fr;
     background-color: #EBEBEB;
-    position: relative;
+
 }
 header img {
     justify-self: start;
     align-self: start;
+    padding: 5px;
 }
 ul {
     display: none;
@@ -41,7 +43,7 @@ button {
     background-color: transparent;
     border: none;
     align-self: start;
-    justify-self: end;
+    justify-self: end; 
 }
 button span {
     font-size: 2.5em;
@@ -49,9 +51,10 @@ button span {
     
 }
 button span:nth-child(2) {display: none;}
-
 /* -- Hamburger Menu Clicked -- */
-
+main.switch {
+    filter: blur(5px);
+}
 
 header.switch ul {
    
@@ -61,12 +64,13 @@ header.switch ul {
     opacity: 85%;
     min-width: 100vw;
     min-height: 100vh;
+    z-index: 1;
   
 }
 header.switch button span:nth-child(2) {
     display: block;
     position: absolute;
-    z-index: 1;
+    z-index: 2;
     color: black;
     right: 5px;
 }
@@ -84,8 +88,30 @@ footer h2 a {
     font-size: .75em;
     font-family: 'Didact Gothic', sans-serif;
     color: #D2A04B;
+    text-decoration: underline;
 }
 
 footer img {
     padding: 10px;
+}
+
+
+
+@media screen and (min-width: 65em) {
+
+    button {
+        display: none;
+    }
+
+header ul {
+    display: flex;
+    font-size: .85em;
+    justify-content: space-around;
+}
+header ul li {
+    border-bottom: none;
+}
+header ul li a:hover {
+    color: #D2A04B;
+}
 }

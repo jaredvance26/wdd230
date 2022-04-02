@@ -1,0 +1,115 @@
+
+main h1 {
+    text-align: center;
+}
+
+div.action {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 4em;
+}
+
+div.action img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+div.action h3 {
+    position: absolute;
+    right: .75em;
+    bottom: 0px;
+    background-color: #D2A04B;
+    padding: .75em;
+    color: white;
+    opacity: .85;
+}
+
+
+section.weather {
+    max-width: 75vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #EBEBEB;
+    font-family: 'Libre Baskerville', serif;
+    padding: .75em;
+    margin-top: 4em;
+    text-align: center;
+   
+}
+span.temp, span.degree {
+    font-size: 2em;
+    font-family: 'Didact Gothic', sans-serif;
+}
+h1#cast {
+    display: none;
+}
+div.forecast {
+    display: none;
+}
+
+div.forecast div {
+    background-color: #D2A04B;
+    padding: 1em;
+}
+
+div.temple-sum {
+    max-width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+div.temple-sum img {
+    display: block;
+    max-width: 75%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.temple-sum p {
+    line-height: 2em;
+}
+
+@media screen and (min-width: 60em) {
+
+    div.action {
+        max-width: 50vw;
+    }
+
+    div.action h3 {
+        right: 5em;
+    }
+
+    div.current {
+        border-bottom: 1.5px solid #969696; 
+    }
+
+    h1#cast {
+        display: block;
+    }
+    div.forecast{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    div.temple-sum {
+        display: flex;
+        gap: 2em;
+        
+    }
+    div.temple-sum img {
+        max-width: 50%;
+    }
+    div.temple-sum p {
+        align-self: center;
+    }
+}
