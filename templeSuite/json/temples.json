@@ -1,0 +1,72 @@
+{
+  "temples": [
+    {
+      "name": "Washington D.C. Temple",
+      "address": "9900 Stoneybrook Dr Kensington MD 20895-3199 United States",
+      "phone": "301-588-0650",
+      "email": "WASHI-OFF@ChurchofJesusChrist.org",
+      "services": ["closed"],
+      "history": {
+        "announced": "15 November 1968",
+        "groundbreaking": "7 December 1968",
+        "dedicated": "19 November 1974",
+        "rededicated": "14 August 2022"
+      },
+      "ordinanceSchedule": "closed",
+      "sessionSchedule": "closed",
+      "closureSchedule": ["March 2018-August 2022"],
+      "img": "images/DC.jpg"
+    },
+    {
+      "name": "Gilbert Temple",
+      "address": "3301 S Greenfield Rd Gilbert AZ 85297 United States",
+      "phone": "480-822-5000",
+      "email": "GILBERT@ChurchofJesusChrist.org",
+      "services": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+      "history":{
+          "announced": "10 April 2008",
+          "groundbreaking": "13 November 2010",
+          "dedicated":"2 March 2014",
+          "rededicated": "N/A"
+      },
+      "ordinanceSchedule": "By appointment",
+      "sessionSchedule": "By appointment",
+      "closureSchedule": ["Monday, 28 March 2022 - Monday, 11 April 2022", "Saturday, 1 October 2022","Monday, 3 October 2022 - Monday, 17 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
+      "img": "images/gilbert.jpg"
+    },
+    {
+      "name": "Mesa Temple",
+      "address": "101 S LeSueur Mesa AZ 85204-1031 United States",
+      "phone": "480-833-1211",
+      "email": "MESA@ChurchofJesusChrist.org",
+      "services": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+      "history": {
+        "announced": "1 October 1919",
+        "groundbreaking": "25 April 1922",
+        "dedicated":"23 October 1927",
+        "rededicated": "12 December 2021"
+      },
+      "ordinanceSchedule": "By appointment",
+      "sessionSchedule": "By appointment",
+      "closureSchedule": ["Saturday, 2 April 2022","Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations)","Monday, 18 July 2022 - Monday, 1 August 2022", "Saturday, 1 October 2022","Wednesday, 23 November 2022 (Limited Operations)","Thursday, 24 November 2022","Saturday, 24 December 2022"],
+      "img": "images/mesa.jpg"
+    },
+    {
+      "name": "Rexburg Temple",
+      "address": "750 S 2nd Rexburg ID 83440-5404 United States",
+      "phone": "208-656-0880",
+      "email": "REXBURG@ChurchofJesusChrist.org",
+      "services": ["Clothing rental available","No cafeteria available","No patron housing available","Distribution center nearby"],
+      "history": {
+        "announced": "12 December 2003",
+        "groundbreaking": "30 July 2005",
+        "dedicated":"10 February 2008",
+        "rededicated": "N/A"
+      },
+      "ordinanceSchedule": "By appointment",
+      "sessionSchedule": "By appointment",
+      "closureSchedule": ["Saturday, 2 April 2022", "Monday, 11 April 2022 - Monday, 4 July 2022","Saturday, 23 July 2022","Saturday, 1 October 2022","Wednesday, 23 November 2022 - Thursday, 24 November 2022","Saturday, 24 December 2022","Saturday, 31 December 2022"],
+      "img": "images/rexburg.jpg"
+    }
+  ]
+}

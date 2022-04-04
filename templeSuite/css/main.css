@@ -25,14 +25,14 @@ header img {
     align-self: start;
     padding: 5px;
 }
-ul {
+header ul {
     display: none;
     list-style: none;
     padding-left: 0px;
     margin-top: 0px;
     
 }
-ul li {
+header ul li {
     border-bottom: 1px solid black;
     padding: 1.5em;
     font-size: 1.5em;
