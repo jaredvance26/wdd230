@@ -1,0 +1,69 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Libre+Baskerville&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reserve.css">
+</head>
+
+<body>
+    <header class="menu">
+        <a href="./"><img src="images/logo.png" alt="logo" width="100"></a>
+        <button id="button"><span>☰</span><span>✕</span></button>
+
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="temple.html">Temple</a></li>
+            <li><a class="current" href="reservation.html">Reservations</a></li>
+            <li><a href="service.html">Services</a></li>
+        </ul>
+    </header>
+   <main class="blur">
+    <h1>Reservations</h1>
+    <form action="success.html" method="get">
+
+        <div class="dates">
+            <label class="dates">From <input type="date" name="from" required></label>
+            <label class="dates">To <input type="date" name="to" required></label>
+        </div>
+        <label class="top">First Name* <input type="text" name="fname" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" required></label>
+        <label class="top">Email* <input type="email" placeholder="john@example.com" name="email" required></label>
+        <label class="top">Phone Number <input type="tel" name="tel"></label>
+        <label class="top">Home State <input type="text" name="State" placeholder="Arizona"></label>
+
+        <div class="rooms">
+            <h2>Room Type</h2>
+            <label class="sbs"><input type="radio" name="radio" value="King">King</label>
+            <label class="sbs"><input type="radio" name="radio" value="Queen">Queen</label>
+            <label class="sbs"><input type="radio" name="radio" value="Full">Full</label>
+        </div>
+        <label class="top">Special Accommodations/Comments<textarea name="description" id="textbox" cols="45" rows="8"></textarea></label>
+        <input class="submit"type="submit" name="submitBtn" value="Reserve Room">
+
+    </form>
+
+
+   </main>
+
+    <footer>
+        <h2>Temple Inn & Suites</h2>
+        <h2><a href="https://www.google.com/maps/place/4800+Montgomery+Ln+%23300,+Bethesda,+MD+20814/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b8f21f1:0x9a0b3cde14da0a60!8m2!3d38.9832518!4d-77.0955318">Location: 4800 Montgomery Ln #300, Bethesda, MD 20814</a></h2>
+        <h2>Join us on socials!</h2>
+        <div><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram" width="45"></a><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook" width="45"></a></div>
+
+        
+    </footer>
+
+    <script src="js/menu.js"></script>
+</body>
+
+</html>
