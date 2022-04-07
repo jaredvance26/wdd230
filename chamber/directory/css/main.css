@@ -4,7 +4,6 @@
     font-family: "Exo", sans-serif;
 }
 
-
 header {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
