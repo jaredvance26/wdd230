@@ -28,6 +28,42 @@ fetch(url)
 
             forecast.appendChild(div);
         }
+
+        //alerts
+       
+        let section = document.querySelector("section.alerts")
+        
+        if (data.hasOwnProperty("alerts")) {
+            let div = document.createElement("div");
+
+            let x = document.createElement("button");
+            x.textContent = "✕";
+            x.style.fontSize = "3em";
+            x.style.color = "white";
+            
+            x.addEventListener("click", () => {
+                section.classList.toggle("gone");
+            });
+
+            div.style.backgroundColor = "red";
+            div.style.padding = "1em";
+            div.style.marginTop = "4em";
+    
+            let event = document.createElement("h1");
+            event.textContent = data.alerts[0].event;
+            event.style.color = "white";
+            event.style.textAlign = "center";
+
+            let desc = document.createElement("p");
+            desc.textContent = data.alerts[0].description;
+            desc.style.color = "white";
+
+            div.appendChild(x);
+            div.appendChild(event);
+            div.appendChild(desc);
+
+            section.appendChild(div);
+        };
         
 
         // Range function

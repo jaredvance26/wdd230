@@ -1,4 +1,11 @@
 
+section.gone {
+    display: none;
+}
+button:hover {
+    cursor: pointer;
+}
+
 main h1 {
     text-align: center;
 }

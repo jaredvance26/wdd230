@@ -99,7 +99,7 @@ footer img {
 
 @media screen and (min-width: 65em) {
 
-    button {
+    header button {
         display: none;
     }
 
@@ -113,5 +113,10 @@ header ul li {
 }
 header ul li a:hover {
     color: #D2A04B;
+}
+
+header ul li a.current {
+    color:#D2A04B;
+    text-decoration: underline;
 }
 }

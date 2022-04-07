@@ -9,6 +9,9 @@ body h1 {
     position: absolute;
     right: 5px;
 }
+main span:hover {
+    cursor: pointer;
+}
 
 .liked {
     color: red;
