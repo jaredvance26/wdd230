@@ -36,7 +36,6 @@ fetch("json/temples.json")
                 email.textContent = temple.email;
 
                 let services = createList("Services",temple.services);
-                console.log(services);
 
                 let ordinance = document.createElement("h3");
                 ordinance.textContent = `Ordinance Schedule: ${temple.ordinanceSchedule}`;
